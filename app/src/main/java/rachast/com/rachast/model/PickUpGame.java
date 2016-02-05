@@ -11,6 +11,9 @@ import java.util.List;
  * Created by Cliente on 14/12/2015.
  */
 public class PickUpGame {
+
+    private String name;
+
     List<Player> playerList;
     List<Match> matchList;
     public List<Team> getTeamsList() {
@@ -24,7 +27,8 @@ public class PickUpGame {
 
     private Date date;
 
-    public PickUpGame() {
+    public PickUpGame(String name) {
+        this.name = name;
         this.playerList = new ArrayList<>();
         this.matchList = new ArrayList<>();
         this.teamsList = new ArrayList<>();
@@ -44,6 +48,14 @@ public class PickUpGame {
         Match newMatch = new Match(team1,team2,matchCont++);
         this.currentMath = newMatch;
         matchList.add(newMatch);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public boolean addPlayer(Player player) {

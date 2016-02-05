@@ -30,9 +30,17 @@ public class PUGameManager {
 
 
     public void newPickUpGame(){
-        PickUpGame pickUpGame = new PickUpGame();
+        PickUpGame pickUpGame = new PickUpGame("Racha");
         currentPickUpGame = pickUpGame;
         PickUpGames.add(pickUpGame);
+    }
+
+    public List getPickUpGames() {
+        return PickUpGames;
+    }
+
+    public PickUpGame getCurrentPickUpGame() {
+        return currentPickUpGame;
     }
 
     public  void addPlayerToCurrentPickUpGame(List<Player> players){

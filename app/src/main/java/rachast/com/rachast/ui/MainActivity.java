@@ -4,13 +4,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import rachast.com.rachast.R;
+import rachast.com.rachast.adapter.PickUpGameAdapter;
 import rachast.com.rachast.model.PUGameManager;
+import rachast.com.rachast.model.PickUpGame;
 
 public class MainActivity extends AppCompatActivity {
 
     PUGameManager controller;
+
+    PickUpGameAdapter adapter;
+
+    ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +30,18 @@ public class MainActivity extends AppCompatActivity {
         controller = PUGameManager.getInstance();
         controller.newPickUpGame();
         controller.startCurrentPickUpGame();
+        listView = (ListView) findViewById(R.id.pickup_game_list);
+        List<PickUpGame> games = new ArrayList<>();
+        games.add(controller.getCurrentPickUpGame());
+        listView.setAdapter(new PickUpGameAdapter(this, games));
+    }
+
+    public void setAdapter() {
+    }
+
+    public void addPickUpGame (View view) {
+
+
     }
 
     @Override

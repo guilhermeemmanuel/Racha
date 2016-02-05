@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/home/renan/renan/RachaST/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/renan/renan/RachaST/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-ca12e119e7f6e2d757198f65a390d6df5b2d92d4.jar" />
-    </item>
-    <item
-        jar="/home/renan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/home/renan/renan/RachaST/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-81d133824129ef6b87680ba0e0542cb94df2bc68.jar" />
-    </item>
-    <item
-        jar="/home/renan/renan/RachaST/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="C:\Users\ATIVE BOOK\Documents\Racha\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/renan/renan/RachaST/app/build/intermediates/pre-dexed/debug/classes-74804ca03acf5ef2a40950853ac0604efa56986a.jar" />
+        <dex dex="C:\Users\ATIVE BOOK\Documents\Racha\app\build\intermediates\pre-dexed\debug\classes-94b19e79bb3191a2e35b1ff9756e45f810a0e2bf.jar" />
     </item>
     <item
-        jar="/home/renan/renan/RachaST/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="C:\Users\ATIVE BOOK\Documents\Racha\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/renan/renan/RachaST/app/build/intermediates/pre-dexed/debug/classes-6b867387849c52b14fe249c7e3fd61f5d908bcdd.jar" />
+        <dex dex="C:\Users\ATIVE BOOK\Documents\Racha\app\build\intermediates\pre-dexed\debug\classes-fdd7678714bbd5348b7d595ab529003da7646e52.jar" />
+    </item>
+    <item
+        jar="C:\Users\ATIVE BOOK\Documents\Racha\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\ATIVE BOOK\Documents\Racha\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-a776e3379c97174f4f449e52f47e7dcddce0e940.jar" />
+    </item>
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\ATIVE BOOK\Documents\Racha\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-6caa1fe4da30cf2cc1676a54cb9890359b7ae5e4.jar" />
     </item>
 
 </items>
