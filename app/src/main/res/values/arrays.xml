@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_titles_array">
+        <item>Rachas</item>
+        <item>Jogadores</item>
+    </string-array>
+</resources>

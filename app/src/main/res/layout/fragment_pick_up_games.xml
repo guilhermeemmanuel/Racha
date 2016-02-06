@@ -1,0 +1,38 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_pick_up_game"
+    tools:context="org.github.meuracha.fragment.PickUpGamesFragment">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_pick_up_games"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ProgressBar
+        android:id="@+id/pb_frag_pick_up_games"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Inverse"
+        android:indeterminate="true"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_add"
+        app:pressedTranslationZ="4dp"
+        app:paddingStart="16dp"
+        app:backgroundTint="@color/colorAccent"
+        android:layout_gravity="right|bottom" />
+
+</android.support.design.widget.CoordinatorLayout>
